@@ -25,4 +25,8 @@ int main(){
        outFile.close();
 
 
+           // open the file 
+    ifstream inFile("sample.txt", ios::binary);
+
+
 }
