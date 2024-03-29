@@ -37,4 +37,9 @@ int main(){
         }
     }
 
+    auto stop = high_resolution_clock::now();
+    auto final_time = duration_cast<milliseconds>(stop - start).count();
+    cout << "Time: " << final_time << "ms" << endl;
+
+
 }
