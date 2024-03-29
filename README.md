@@ -1,1 +1,1 @@
-[text](<Comp Org Results.pdf>)
+[Results.pdf](<Comp Org Results.pdf>)
