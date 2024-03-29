@@ -22,6 +22,7 @@ int main(){
         auto end_write = high_resolution_clock::now();
     auto WRITING_TIME = duration_cast<milliseconds>(end_write - start_write).count();
     // finish getting writing time 
+       outFile.close();
 
 
 }
