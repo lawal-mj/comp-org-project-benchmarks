@@ -12,4 +12,15 @@ int main() {
     double b = 2.5;
     double result;
 
+
+        // Addition benchmark
+    auto start = high_resolution_clock::now();
+    for (int i = 0; i < 10; i++)
+    {
+        for (int j = 0; j < billion; j++)
+        {
+            result = a + b;
+        }
+    }
+
 }
