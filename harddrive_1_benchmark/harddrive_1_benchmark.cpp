@@ -27,6 +27,13 @@ int main(){
 
            // open the file 
     ifstream inFile("sample.txt", ios::binary);
+        auto start_read = high_resolution_clock::now();
+    for (long long i = 0; i < total_bytes; i += section_size) {
+        inFile.read(section, section_size);
+    }
+    auto end_read = high_resolution_clock::now();
+
+    inFile.close();
 
 
 }
