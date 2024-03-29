@@ -23,4 +23,11 @@ int main() {
         }
     }
 
+        // multiplication benchmark
+    for (int i = 0; i < 5; i++)
+    {
+        for (int j = 0; j < billion; j++)
+            result = a * b;
+    }
+
 }
