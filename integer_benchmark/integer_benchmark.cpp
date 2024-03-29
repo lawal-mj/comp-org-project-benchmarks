@@ -11,4 +11,14 @@ int main(){
     int32_t b = 2;
     int32_t result;
 
+        // Addition benchmark
+    auto start = high_resolution_clock::now();
+    for (int i = 0; i < 10; i++)
+    {
+        for (int j = 0; j < billion; j++)
+        {
+            result = a + b;
+        }
+    }
+
 }
