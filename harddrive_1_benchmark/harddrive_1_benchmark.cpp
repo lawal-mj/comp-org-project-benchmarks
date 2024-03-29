@@ -34,6 +34,10 @@ int main(){
     auto end_read = high_resolution_clock::now();
 
     inFile.close();
+        auto READING_TIME = duration_cast<milliseconds>(end_read - start_read).count();
+
+    cout << "Time: " << (READING_TIME + WRITING_TIME) << "ms" << endl;
+    
 
 
 }
