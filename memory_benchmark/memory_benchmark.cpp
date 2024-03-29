@@ -13,5 +13,15 @@ int main(){
 
     auto start = high_resolution_clock::now();
 
+        // reading data
+    for (long long i = 0; i < arraySize; i++) {
+        temp_data = dataArray[i];
+    }
+
+    // writing data
+    for (long long i = 0; i < arraySize; i++) {
+        dataArray[i] = 1;
+    }
+
 
 }
